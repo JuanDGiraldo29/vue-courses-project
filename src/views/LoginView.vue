@@ -60,13 +60,6 @@
               <label for="password" class="block text-sm font-medium text-text">
                 Contraseña
               </label>
-
-              <RouterLink
-                to="/forgot-password"
-                class="text-sm font-medium text-primary hover:underline"
-              >
-                ¿Olvidaste tu contraseña?
-              </RouterLink>
             </div>
 
             <div class="relative">
