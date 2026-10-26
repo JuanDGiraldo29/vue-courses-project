@@ -41,73 +41,6 @@ export interface Course {
 export const coursesData: Record<string, Course> = {
   '1': {
     id: '1',
-    title: 'Fundamentos de Seguridad de la Información Corporativa',
-    badge: 'Programa obligatorio 2026',
-    category: 'Normativo',
-    image: '/img/courses/seguridad.jpg',
-    description:
-      'Instrucción obligatoria diseñada para salvaguardar la infraestructura digital, proteger activos de datos confidenciales y garantizar el cumplimiento de estándares de ciberseguridad y normativas corporativas vigentes.',
-    duration: '8 horas estimadas',
-    certification: 'Certificación oficial',
-    department: 'Dirección de Seguridad de la Información (CISO)',
-    lastAccess: 'Hoy, 10:42 AM',
-    deadline: '30 Nov 2026',
-    progress: 65,
-    note: 'Se requiere completar el 100% de los módulos y superar la evaluación del Módulo 4 con un mínimo de 80% para tramitar la certificación.',
-    modules: [
-      {
-        id: 1,
-        order: 1,
-        status: 'completed',
-        title: 'Políticas de contraseñas y control de acceso',
-        description:
-          'Establecimiento de longitud y complejidad, autenticación multifactorial (MFA) obligatoria y segregación estricta de permisos según el principio de privilegio mínimo.',
-        grade: '96/100',
-        time: '1 h 45 min invertidas',
-        lessons: 6,
-        assessment: 'Test de validación aprobado',
-      },
-      {
-        id: 2,
-        order: 2,
-        status: 'completed',
-        title: 'Detección de ataques de phishing e ingeniería social',
-        description:
-          'Identificación visual de correos apócrifos, simulación práctica de spear-phishing, técnicas de spoofing y protocolo estandarizado de reporte al SOC corporativo.',
-        grade: '100/100',
-        time: '2 h 15 min invertidas',
-        lessons: 8,
-        assessment: 'Laboratorio de simulación aprobado',
-      },
-      {
-        id: 3,
-        order: 3,
-        status: 'in-progress',
-        title: 'Manejo de datos sensibles y cumplimiento regulatorio',
-        description:
-          'Clasificación de información confidencial, directrices para almacenamiento local y en nube, normativas GDPR/HIPAA y prevención de fuga de datos (DLP).',
-        time: '45 min restantes',
-        lessons: 7,
-        assessment: 'Evaluación final pendiente (mínimo 80%)',
-        progress: 60,
-        currentLesson: 'Lección 3 de 5',
-      },
-      {
-        id: 4,
-        order: 4,
-        status: 'pending',
-        title: 'Plan de respuesta a incidentes y copias de seguridad',
-        description:
-          'Canales de escalamiento, remediación ante ransomware, aislamiento de hosts y política de restauración de copias de respaldo (Backups 3-2-1).',
-        time: '2 h 00 min',
-        lessons: 5,
-        assessment: 'Evaluación final certificable (80% requerido)',
-      },
-    ],
-  },
-
-  '2': {
-    id: '2',
     title: 'Inducción Institucional para Nuevos Colaboradores',
     badge: 'Onboarding',
     category: 'Onboarding',
@@ -172,8 +105,8 @@ export const coursesData: Record<string, Course> = {
     ],
   },
 
-  '3': {
-    id: '3',
+  '2': {
+    id: '2',
     title: 'Cultura Organizacional e Identidad Institucional',
     badge: 'Habilidades',
     category: 'Habilidades',
@@ -223,6 +156,73 @@ export const coursesData: Record<string, Course> = {
         time: '50 min invertidos',
         lessons: 4,
         assessment: 'Evaluación final aprobada (95%)',
+      },
+    ],
+  },
+
+  '3': {
+    id: '3',
+    title: 'Fundamentos de Seguridad de la Información Corporativa',
+    badge: 'Programa obligatorio 2026',
+    category: 'Normativo',
+    image: '/img/courses/seguridad.jpg',
+    description:
+      'Instrucción obligatoria diseñada para salvaguardar la infraestructura digital, proteger activos de datos confidenciales y garantizar el cumplimiento de estándares de ciberseguridad y normativas corporativas vigentes.',
+    duration: '8 horas estimadas',
+    certification: 'Certificación oficial',
+    department: 'Dirección de Seguridad de la Información (CISO)',
+    lastAccess: 'Hoy, 10:42 AM',
+    deadline: '30 Nov 2026',
+    progress: 65,
+    note: 'Se requiere completar el 100% de los módulos y superar la evaluación del Módulo 4 con un mínimo de 80% para tramitar la certificación.',
+    modules: [
+      {
+        id: 1,
+        order: 1,
+        status: 'completed',
+        title: 'Políticas de contraseñas y control de acceso',
+        description:
+          'Establecimiento de longitud y complejidad, autenticación multifactorial (MFA) obligatoria y segregación estricta de permisos según el principio de privilegio mínimo.',
+        grade: '96/100',
+        time: '1 h 45 min invertidas',
+        lessons: 6,
+        assessment: 'Test de validación aprobado',
+      },
+      {
+        id: 2,
+        order: 2,
+        status: 'completed',
+        title: 'Detección de ataques de phishing e ingeniería social',
+        description:
+          'Identificación visual de correos apócrifos, simulación práctica de spear-phishing, técnicas de spoofing y protocolo estandarizado de reporte al SOC corporativo.',
+        grade: '100/100',
+        time: '2 h 15 min invertidas',
+        lessons: 8,
+        assessment: 'Laboratorio de simulación aprobado',
+      },
+      {
+        id: 3,
+        order: 3,
+        status: 'in-progress',
+        title: 'Manejo de datos sensibles y cumplimiento regulatorio',
+        description:
+          'Clasificación de información confidencial, directrices para almacenamiento local y en nube, normativas GDPR/HIPAA y prevención de fuga de datos (DLP).',
+        time: '45 min restantes',
+        lessons: 7,
+        assessment: 'Evaluación final pendiente (mínimo 80%)',
+        progress: 60,
+        currentLesson: 'Lección 3 de 5',
+      },
+      {
+        id: 4,
+        order: 4,
+        status: 'pending',
+        title: 'Plan de respuesta a incidentes y copias de seguridad',
+        description:
+          'Canales de escalamiento, remediación ante ransomware, aislamiento de hosts y política de restauración de copias de respaldo (Backups 3-2-1).',
+        time: '2 h 00 min',
+        lessons: 5,
+        assessment: 'Evaluación final certificable (80% requerido)',
       },
     ],
   },
